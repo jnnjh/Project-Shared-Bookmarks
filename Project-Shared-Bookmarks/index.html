@@ -2,12 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project-shared-bookmarks</title>
+    <title>Shared bookmarks</title>
   </head>
   <body>
     <div id="app"></div>
+<h1>Shared Bookmarks</h1>
+
+      <div id="bookmarkSection"></div>
+
+      <h2>Add bookmark</h2>
+      <form id="bookmarkForm">
+        <label>
+          URL
+          <input type="url" id="urlInput" required />
+        </label>
+
+        <label>
+          Title
+          <input type="text" id="titleInput" required />
+        </label>
+
+        <label>
+          Description
+          <textarea id="descInput" required></textarea>
+        </label>
+
+        <button type="submit">Add</button>
+      </form>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
