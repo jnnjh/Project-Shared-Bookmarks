@@ -35,3 +35,4 @@ function displayBookmarks(userId) {
     bookmarkList.appendChild(li);
   });
 }
+
