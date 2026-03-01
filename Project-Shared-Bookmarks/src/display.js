@@ -41,3 +41,4 @@ export function renderBookmarks(userId) {
 
   attachBookmarkActions(userId, renderBookmarks);
 }
+
